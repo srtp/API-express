@@ -1,1 +1,25 @@
-{"employees":[{"id":1,"name":" yok wang ","tel":"0627277777","gender":"female","jobTitle":"developer","address":"chamcham condo","dateBirth":"8 dec 2000"},{"id":3,"name":"yok wang","tel":"0627277777","gender":"female","jobTitle":"developer","address":"chamcham condo","dateBirth":"8 dec 2000"},{"id":4,"name":"park seojun","tel":"0627277777","gender":"female","jobTitle":"developer","address":"chamcham condo","dateBirth":"8 dec 2000"},{"id":5,"name":"jackson wang","tel":"0627277777","gender":"female","jobTitle":"developer","address":"chamcham condo","dateBirth":"8 dec 2000"},{"id":2,"name":"Irene","tel":"0627277777","gender":"female","jobTitle":"developer","address":"chamcham condo","dateBirth":"8 dec 2000"}]}
+{
+  "employees": [
+    {
+      "id": "1a095bd5-d054-43e6-a4ea-7ce8ed85f034",
+      "firstName": "Chanunch",
+      "lastName": "Chaypha",
+      "jobTitle": "dev obs",
+      "division": "IT"
+    },
+    {
+      "id": "1",
+      "firstName": "Chanun",
+      "lastName": "wang",
+      "jobTitle": "dev obs",
+      "division": "IT"
+    }
+  ],
+  "divisions": [
+    {
+      "id": 1,
+      "division": "web developer",
+      "tel": "038125469"
+    }
+  ]
+}

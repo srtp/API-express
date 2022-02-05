@@ -4,7 +4,7 @@ const app = express();
 const cors = require("cors");
 
 const employeeRoute = require("./src/routes/employeeRoute");
-const divisionRoute = require("./src/routes/divisionRoute");
+
 
 app.use(bodyParser.json());
 
@@ -17,5 +17,5 @@ const corsOptions = {
 };
 app.use(cors(corsOptions));
 app.use("/employees", employeeRoute);
-app.use("/divisions", divisionRoute);
+
 app.listen(3001);

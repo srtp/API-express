@@ -4,7 +4,6 @@ const db = new StormDB(engine);
 
 db.default({
   employees: [],
-  divisions: [],
 });
 
 module.exports = db;
